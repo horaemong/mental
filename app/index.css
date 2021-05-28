@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+}
+#measure, #self{
+  background-color: lightgreen;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 20px;
+  margin-top: 100px;
+  height: 300px;
+}
+.double{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+a{
+  text-decoration: none;
+  font-size: 31px;
+}
+.sss{
+  margin-top: 130px;
+}
+#static{
+  background-color: lightskyblue;
+  border-radius: 20px;
+  height: 150px;
+}
+.ss{
+  padding-top: 50px;
+}

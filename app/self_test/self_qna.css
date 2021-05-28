@@ -1,0 +1,46 @@
+#self{
+  display: none;
+}
+.qBox{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.answerList{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-color: lightgreen;
+}
+.answerList:hover, .answerList:focus{
+  background-color: lightgreen;
+  color: whitesmoke;
+}
+
+.status{
+  height: 20px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 200px;
+}
+
+.statusBar{
+  height: 100%;
+  border-radius: 20px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+
+}
